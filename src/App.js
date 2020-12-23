@@ -1,8 +1,6 @@
 import React, { Component } from "react"
-// import logo from "./src/App.test"
+import logo from "./logo.svg"
 import "./App.css"
-
-process.env.CI = false
 
 class LambdaDemo extends Component {
   constructor(props) {
@@ -38,7 +36,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          
+          <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
