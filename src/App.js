@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import logo from "./logo.svg"
 import "./App.css"
+process.env.CI = false;
 
 class LambdaDemo extends Component {
   constructor(props) {
